@@ -1,0 +1,3 @@
+commodity,moisture_db,aw,temp_c,doi,notes,trust
+Banana Chips,0.026,0.16,,10.1007/s13197-012-0839-0,"Manikantan et al. 2012, J Food Sci Technol: Nendran chips, 2 mm, fried in coconut oil; initial value after frying; measurement temperature not recorded. CHECK POINT ONLY: two points cannot identify the three GAB constants; not used to fill sorption_params.csv",tentative
+Banana Chips,0.053,0.48,20.2-32.5 (ambient),10.1007/s13197-012-0839-0,"Manikantan et al. 2012: film N pouch at 120 days, ambient storage (20.2-32.5 C, 50.8-71.3 % RH); moisture and aw measured on the same sample, not an equilibrium isotherm experiment. CHECK POINT ONLY: not used to fill sorption_params.csv",tentative

@@ -1,0 +1,51 @@
+Food_Type,Respiration_Rate,Ethylene_Production,Ethylene_Sensitivity,Moisture_Content_Pct,Chilling_Sensitivity,Storage_Temperature_C,Relative_Humidity_Pct,Mechanical_Fragility,Recommended_Packaging_Type
+Strawberry,Very High,Low,Low,91.0,No,2,90,High,PP Perforated Clamshell
+Strawberry,Very High,Low,Low,91.0,No,2,95,High,MAP High Barrier
+Blueberry,High,Low,Low,84.0,No,1,92,High,LDPE Vented
+Blueberry,High,Low,Low,84.0,No,1,95,High,MAP High Barrier
+Spinach,Very High,Very Low,High,91.5,No,2,98,Medium,LDPE Perforated
+Spinach,Very High,Very Low,High,91.5,No,2,98,Medium,MAP High Barrier
+Tomato,Medium,High,Medium,94.0,Yes,13,90,Medium,LDPE
+Tomato,Medium,High,Medium,94.0,Yes,8,90,Medium,MAP High Barrier
+Broccoli,Very High,Low,High,90.0,No,1,98,Medium,LDPE Perforated
+Broccoli,Very High,Low,High,90.0,No,1,98,Medium,MAP High Barrier
+Mango,Medium,High,High,82.0,Yes,12,88,Medium,Corrugated Board
+Mango,Medium,High,High,82.0,Yes,12,88,Medium,MAP High Barrier
+Banana,High,High,High,75.0,Yes,14,90,Medium,LDPE
+Banana,High,High,High,75.0,Yes,14,90,Medium,MAP High Barrier
+Apple,Low,Medium,Medium,84.0,No,2,92,Low,LDPE
+Apple,Low,Medium,Medium,84.0,No,2,92,Low,MAP High Barrier
+Potato,Low,Very Low,Low,79.0,Yes,8,92,Low,Corrugated Board
+Potato,Low,Very Low,Low,79.0,Yes,8,92,Low,HDPE Perforated
+Carrot,Low,Very Low,Medium,88.0,No,1,97,Low,LDPE Perforated
+Carrot,Low,Very Low,Medium,88.0,No,1,97,Low,MAP High Barrier
+Onion,Very Low,Very Low,Low,86.0,No,2,70,Low,Mesh Bag
+Onion,Very Low,Very Low,Low,86.0,No,2,70,Low,LDPE
+Garlic,Very Low,Very Low,Low,60.0,No,0,65,Low,Mesh Bag
+Garlic,Very Low,Very Low,Low,60.0,No,0,65,Low,LDPE
+Cabbage,Low,Very Low,Medium,92.0,No,1,97,Low,LDPE Perforated
+Cabbage,Low,Very Low,Medium,92.0,No,1,97,Low,MAP High Barrier
+Lettuce,High,Very Low,High,95.0,No,1,97,Medium,LDPE Perforated
+Lettuce,High,Very Low,High,95.0,No,1,97,Medium,MAP High Barrier
+Cucumber,Medium,Low,High,96.0,Yes,12,92,Medium,LDPE Shrink Wrap
+Cucumber,Medium,Low,High,96.0,Yes,12,92,Medium,MAP High Barrier
+Bell Pepper,Low,Low,Low,92.0,Yes,8,92,Medium,LDPE
+Bell Pepper,Low,Low,Low,92.0,Yes,8,92,Medium,MAP High Barrier
+Grapes,Low,Very Low,Low,81.0,No,0,92,High,PP Perforated Clamshell
+Grapes,Low,Very Low,Low,81.0,No,0,92,High,MAP High Barrier
+Papaya,High,High,High,88.0,Yes,11,87,Medium,Corrugated Board
+Papaya,High,High,High,88.0,Yes,11,87,Medium,MAP High Barrier
+Green Peas,Very High,Very Low,Medium,78.0,No,1,92,Low,LDPE
+Green Peas,Very High,Very Low,Medium,78.0,No,1,92,Low,MAP High Barrier
+Cauliflower,Medium,Low,High,92.0,No,1,97,Medium,LDPE Wrap
+Cauliflower,Medium,Low,High,92.0,No,1,97,Medium,MAP High Barrier
+Okra,High,Low,Medium,90.0,Yes,11,92,Medium,PP Perforated
+Okra,High,Low,Medium,90.0,Yes,11,92,Medium,MAP High Barrier
+Brinjal,Medium,Low,High,92.0,Yes,11,92,Medium,LDPE
+Brinjal,Medium,Low,High,92.0,Yes,11,92,Medium,MAP High Barrier
+Guava,High,Medium,Medium,83.0,Yes,9,90,Medium,LDPE Shrink Wrap
+Guava,High,Medium,Medium,83.0,Yes,9,90,Medium,MAP High Barrier
+Pomegranate,Low,Low,Low,78.0,No,6,92,Low,Corrugated Board
+Pomegranate,Low,Low,Low,78.0,No,6,92,Low,MAP High Barrier
+Green Chilli,Medium,Low,Medium,88.0,Yes,9,92,Low,LDPE
+Green Chilli,Medium,Low,Medium,88.0,Yes,9,92,Low,MAP High Barrier

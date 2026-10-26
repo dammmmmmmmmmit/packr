@@ -1,0 +1,3 @@
+product,commodity_in_table,crit_aw,basis,temp_c,source,doi,notes,trust
+crispbread (rye),"crispbread, not in commodity table",0.255,,,"Jakubczyk et al. 2008, Pol J Food Nutr Sci 58(1):45-51",,"WEAK EVIDENCE ONLY: different product; not used to set crit_aw for any commodity. Criterion (sensory, mechanical or acoustic) and temperature not recorded here: check the paper. No DOI supplied",weak
+crispbread (fibre),"crispbread, not in commodity table",0.319,,,"Jakubczyk et al. 2008, Pol J Food Nutr Sci 58(1):45-51",,"WEAK EVIDENCE ONLY: different product; not used to set crit_aw for any commodity. Criterion (sensory, mechanical or acoustic) and temperature not recorded here: check the paper. No DOI supplied",weak

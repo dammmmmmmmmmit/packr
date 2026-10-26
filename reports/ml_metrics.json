@@ -1,0 +1,527 @@
+{
+  "criteria": {
+    "mae_success_max": 0.1,
+    "auc_min": 0.9,
+    "shelf_life_medae_log_max": 0.3,
+    "calibration_bin_error_max": 0.1,
+    "calibration_bin_min_rows": 30
+  },
+  "success_params": {
+    "num_leaves": 127,
+    "min_child_samples": 200,
+    "n_estimators": 800,
+    "learning_rate": 0.03
+  },
+  "life_params": {
+    "num_leaves": 127,
+    "min_child_samples": 40,
+    "n_estimators": 800,
+    "learning_rate": 0.03
+  },
+  "cv_grid": [
+    {
+      "params": {
+        "num_leaves": 31,
+        "min_child_samples": 40,
+        "n_estimators": 400,
+        "learning_rate": 0.05
+      },
+      "cv_mae": 0.10270517532612436,
+      "cv_mae_sd": 0.015587263252254019,
+      "cv_mae_folds": [
+        0.1122,
+        0.1247,
+        0.0825,
+        0.1062,
+        0.0878
+      ],
+      "cv_auc": 0.9750939126297528,
+      "cv_life_medae_log": 0.22610149478782343
+    },
+    {
+      "params": {
+        "num_leaves": 31,
+        "min_child_samples": 40,
+        "n_estimators": 800,
+        "learning_rate": 0.03
+      },
+      "cv_mae": 0.09593476007996134,
+      "cv_mae_sd": 0.015079861451090484,
+      "cv_mae_folds": [
+        0.1043,
+        0.1173,
+        0.0749,
+        0.0997,
+        0.0835
+      ],
+      "cv_auc": 0.9773525608566714,
+      "cv_life_medae_log": 0.22628944659624234
+    },
+    {
+      "params": {
+        "num_leaves": 31,
+        "min_child_samples": 200,
+        "n_estimators": 400,
+        "learning_rate": 0.05
+      },
+      "cv_mae": 0.09914115170643109,
+      "cv_mae_sd": 0.01275949306177935,
+      "cv_mae_folds": [
+        0.1126,
+        0.1082,
+        0.0808,
+        0.1072,
+        0.0869
+      ],
+      "cv_auc": 0.9782833540940115,
+      "cv_life_medae_log": 0.22380722346362375
+    },
+    {
+      "params": {
+        "num_leaves": 31,
+        "min_child_samples": 200,
+        "n_estimators": 800,
+        "learning_rate": 0.03
+      },
+      "cv_mae": 0.09195693430906243,
+      "cv_mae_sd": 0.011020169982669626,
+      "cv_mae_folds": [
+        0.1036,
+        0.0985,
+        0.0762,
+        0.1001,
+        0.0814
+      ],
+      "cv_auc": 0.980488919282994,
+      "cv_life_medae_log": 0.220538607520544
+    },
+    {
+      "params": {
+        "num_leaves": 63,
+        "min_child_samples": 40,
+        "n_estimators": 400,
+        "learning_rate": 0.05
+      },
+      "cv_mae": 0.08615981274754692,
+      "cv_mae_sd": 0.01427630724429863,
+      "cv_mae_folds": [
+        0.093,
+        0.1061,
+        0.0663,
+        0.0916,
+        0.0738
+      ],
+      "cv_auc": 0.9808626770528754,
+      "cv_life_medae_log": 0.2101475170526844
+    },
+    {
+      "params": {
+        "num_leaves": 63,
+        "min_child_samples": 40,
+        "n_estimators": 800,
+        "learning_rate": 0.03
+      },
+      "cv_mae": 0.08108196354048493,
+      "cv_mae_sd": 0.013481370444951525,
+      "cv_mae_folds": [
+        0.091,
+        0.0979,
+        0.0616,
+        0.0852,
+        0.0696
+      ],
+      "cv_auc": 0.9824913571803856,
+      "cv_life_medae_log": 0.20767390475935416
+    },
+    {
+      "params": {
+        "num_leaves": 63,
+        "min_child_samples": 200,
+        "n_estimators": 400,
+        "learning_rate": 0.05
+      },
+      "cv_mae": 0.08402908050394385,
+      "cv_mae_sd": 0.012155148033282494,
+      "cv_mae_folds": [
+        0.0977,
+        0.0918,
+        0.0656,
+        0.0911,
+        0.074
+      ],
+      "cv_auc": 0.9827832820994393,
+      "cv_life_medae_log": 0.2109651065966331
+    },
+    {
+      "params": {
+        "num_leaves": 63,
+        "min_child_samples": 200,
+        "n_estimators": 800,
+        "learning_rate": 0.03
+      },
+      "cv_mae": 0.07972881875351383,
+      "cv_mae_sd": 0.011793548661395307,
+      "cv_mae_folds": [
+        0.0927,
+        0.0889,
+        0.0622,
+        0.0853,
+        0.0695
+      ],
+      "cv_auc": 0.9837855223849944,
+      "cv_life_medae_log": 0.2068489720051867
+    },
+    {
+      "params": {
+        "num_leaves": 127,
+        "min_child_samples": 40,
+        "n_estimators": 400,
+        "learning_rate": 0.05
+      },
+      "cv_mae": 0.0762907759861667,
+      "cv_mae_sd": 0.01262600115461289,
+      "cv_mae_folds": [
+        0.0849,
+        0.0929,
+        0.0581,
+        0.0796,
+        0.0659
+      ],
+      "cv_auc": 0.9840010300908414,
+      "cv_life_medae_log": 0.1980180680646984
+    },
+    {
+      "params": {
+        "num_leaves": 127,
+        "min_child_samples": 40,
+        "n_estimators": 800,
+        "learning_rate": 0.03
+      },
+      "cv_mae": 0.0741409490234453,
+      "cv_mae_sd": 0.013711945152018207,
+      "cv_mae_folds": [
+        0.0817,
+        0.0941,
+        0.0559,
+        0.0769,
+        0.0622
+      ],
+      "cv_auc": 0.983979480287035,
+      "cv_life_medae_log": 0.19340763656015603
+    },
+    {
+      "params": {
+        "num_leaves": 127,
+        "min_child_samples": 200,
+        "n_estimators": 400,
+        "learning_rate": 0.05
+      },
+      "cv_mae": 0.07800533377548031,
+      "cv_mae_sd": 0.012329627552201954,
+      "cv_mae_folds": [
+        0.091,
+        0.0872,
+        0.0598,
+        0.085,
+        0.0669
+      ],
+      "cv_auc": 0.9841453520823024,
+      "cv_life_medae_log": 0.20537298424529687
+    },
+    {
+      "params": {
+        "num_leaves": 127,
+        "min_child_samples": 200,
+        "n_estimators": 800,
+        "learning_rate": 0.03
+      },
+      "cv_mae": 0.07311762212540608,
+      "cv_mae_sd": 0.011440479036749678,
+      "cv_mae_folds": [
+        0.0829,
+        0.0839,
+        0.057,
+        0.0802,
+        0.0616
+      ],
+      "cv_auc": 0.985395486003245,
+      "cv_life_medae_log": 0.20792478177367796
+    }
+  ],
+  "cv_chosen": {
+    "mae": 0.07311762212540608,
+    "sd": 0.011440479036749678,
+    "folds": [
+      0.0829,
+      0.0839,
+      0.057,
+      0.0802,
+      0.0616
+    ],
+    "auc": 0.985395486003245,
+    "life_medae_log": 0.20792478177367796
+  },
+  "test": {
+    "mae": 0.07586649687647633,
+    "auc": 0.9825127314066306,
+    "life_medae_log": 0.2308334614429392,
+    "shelf_life_p10_medae_log": 0.22797009972282967,
+    "shelf_life_p90_medae_log": 0.21443584238203306
+  },
+  "per_category": {
+    "dry_snack": {
+      "mae": 0.10207166237328856,
+      "auc": 0.9731572229650324,
+      "life_medae_log": 0.5915563631182303
+    },
+    "fresh_produce": {
+      "mae": 0.06603955981517176,
+      "auc": 0.9810535296818904,
+      "life_medae_log": 0.18086315072180748
+    }
+  },
+  "per_commodity": [
+    {
+      "category": "dry_snack",
+      "commodity": "Banana Chips",
+      "mae": 0.1948,
+      "mean_sim": 0.3063,
+      "mean_pred": 0.3657
+    },
+    {
+      "category": "dry_snack",
+      "commodity": "Cream Biscuits",
+      "mae": 0.0471,
+      "mean_sim": 0.8064,
+      "mean_pred": 0.7964
+    },
+    {
+      "category": "dry_snack",
+      "commodity": "Roasted Peanuts",
+      "mae": 0.0643,
+      "mean_sim": 0.6574,
+      "mean_pred": 0.6124
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Apple",
+      "mae": 0.0495,
+      "mean_sim": 0.1882,
+      "mean_pred": 0.1726
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Cauliflower",
+      "mae": 0.07,
+      "mean_sim": 0.1805,
+      "mean_pred": 0.2411
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Cucumber",
+      "mae": 0.0485,
+      "mean_sim": 0.1001,
+      "mean_pred": 0.119
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Lettuce",
+      "mae": 0.1016,
+      "mean_sim": 0.1115,
+      "mean_pred": 0.2108
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Mango",
+      "mae": 0.0718,
+      "mean_sim": 0.2379,
+      "mean_pred": 0.1845
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Okra",
+      "mae": 0.0438,
+      "mean_sim": 0.1323,
+      "mean_pred": 0.1433
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Potato",
+      "mae": 0.0779,
+      "mean_sim": 0.2281,
+      "mean_pred": 0.1825
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Strawberry",
+      "mae": 0.0652,
+      "mean_sim": 0.2929,
+      "mean_pred": 0.3318
+    }
+  ],
+  "calibration": [
+    {
+      "bin": "0.0-0.1",
+      "n": 5962,
+      "mean_pred": 0.015371901817436522,
+      "mean_sim": 0.010096496561556525,
+      "abs_err": 0.005275405255879996
+    },
+    {
+      "bin": "0.1-0.2",
+      "n": 626,
+      "mean_pred": 0.1438350660316635,
+      "mean_sim": 0.12848192891373802,
+      "abs_err": 0.015353137117925464
+    },
+    {
+      "bin": "0.2-0.3",
+      "n": 431,
+      "mean_pred": 0.24587996571605786,
+      "mean_sim": 0.25,
+      "abs_err": 0.004120034283942142
+    },
+    {
+      "bin": "0.3-0.4",
+      "n": 386,
+      "mean_pred": 0.3472050846836442,
+      "mean_sim": 0.31839985427461137,
+      "abs_err": 0.028805230409032823
+    },
+    {
+      "bin": "0.4-0.5",
+      "n": 338,
+      "mean_pred": 0.448726633582726,
+      "mean_sim": 0.4248913646449704,
+      "abs_err": 0.023835268937755616
+    },
+    {
+      "bin": "0.5-0.6",
+      "n": 326,
+      "mean_pred": 0.5523853773882144,
+      "mean_sim": 0.4963573619631902,
+      "abs_err": 0.05602801542502417
+    },
+    {
+      "bin": "0.6-0.7",
+      "n": 318,
+      "mean_pred": 0.6526562843951245,
+      "mean_sim": 0.617764838836478,
+      "abs_err": 0.03489144555864643
+    },
+    {
+      "bin": "0.7-0.8",
+      "n": 375,
+      "mean_pred": 0.7498648256949147,
+      "mean_sim": 0.7129479166666667,
+      "abs_err": 0.03691690902824807
+    },
+    {
+      "bin": "0.8-0.9",
+      "n": 501,
+      "mean_pred": 0.8515532322762034,
+      "mean_sim": 0.808531374750499,
+      "abs_err": 0.04302185752570442
+    },
+    {
+      "bin": "0.9-1.0",
+      "n": 1737,
+      "mean_pred": 0.9736248583745067,
+      "mean_sim": 0.9763870898100173,
+      "abs_err": 0.002762231435510576
+    }
+  ],
+  "baselines": {
+    "global_mean": {
+      "mae": 0.3701381489858188
+    },
+    "category_mean": {
+      "mae": 0.3289541691100642
+    },
+    "rule_engine_pass": {
+      "mae": 0.3679897017045455,
+      "auc": 0.6210233959201763
+    },
+    "plan_inputs_only": {
+      "mae": 0.18988997325738202,
+      "auc": 0.893903963657775,
+      "life_medae_log": 0.73672064862253
+    },
+    "estimated_profile_new_food": {
+      "mae": 0.1718307266993883,
+      "auc": 0.9165562877593836,
+      "life_medae_log": 0.5733319283117551
+    }
+  },
+  "acceptance": {
+    "mae_success": {
+      "value": 0.07586649687647633,
+      "limit": 0.1,
+      "passed": true
+    },
+    "auc": {
+      "value": 0.9825127314066306,
+      "limit": 0.9,
+      "passed": true
+    },
+    "shelf_life_log_medae": {
+      "value": 0.2308334614429392,
+      "limit": 0.3,
+      "passed": true
+    },
+    "calibration_worst_bin": {
+      "value": 0.05602801542502417,
+      "limit": 0.1,
+      "passed": true
+    }
+  },
+  "monotonic_wvtr_snack": {
+    "factor": 2.0,
+    "mean_success_base": 0.5914902262929265,
+    "mean_success_higher_wvtr": 0.5489170878123554,
+    "passed": true
+  },
+  "mc_noise_floor_mae": 0.006018698628228967,
+  "n_train": 85100,
+  "n_test": 11000,
+  "test_commodities": [
+    "Apple",
+    "Banana Chips",
+    "Cauliflower",
+    "Cream Biscuits",
+    "Cucumber",
+    "Lettuce",
+    "Mango",
+    "Okra",
+    "Potato",
+    "Roasted Peanuts",
+    "Strawberry"
+  ],
+  "lightgbm": "4.7.0",
+  "dataset_summary": {
+    "seed": 0,
+    "n_train": 85100,
+    "n_test": 11000,
+    "n_train_commodities_real": 37,
+    "n_train_commodities_virtual": 444,
+    "n_test_commodities": 11,
+    "test_commodities": [
+      "Strawberry",
+      "Lettuce",
+      "Mango",
+      "Potato",
+      "Cucumber",
+      "Apple",
+      "Okra",
+      "Cauliflower",
+      "Banana Chips",
+      "Cream Biscuits",
+      "Roasted Peanuts"
+    ],
+    "n_trials_train": 128,
+    "n_trials_test": 256,
+    "n_candidate_structures": 89,
+    "folds": 5,
+    "commodities_master_sha256": "e9cc78121b552a07"
+  }
+}

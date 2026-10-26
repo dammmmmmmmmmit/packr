@@ -1,0 +1,28 @@
+commodity,category,respiration_rate_mgco2_kg_hr,respiration_class,resp_ref_temp_c,ideal_temp_c,ideal_rh_pct,typical_shelf_life_days,chilling_sensitive,moisture_pct,fat_pct,ph,source,trust
+Banana,fresh_produce,15,moderate,,13.5,90,14,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Tomato,fresh_produce,19,moderate,,13.0,90,14,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Orange,fresh_produce,7,low,,5.0,90,45,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Pineapple,fresh_produce,10,low,,10.0,88,21,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Apple,fresh_produce,5,very_low,,1.0,92,120,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Mango,fresh_produce,25,high,,12.0,88,20,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Grape,fresh_produce,6,low,,-0.5,92,90,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Strawberry,fresh_produce,30,high,,0.0,92,7,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Avocado,fresh_produce,28,high,,7.0,88,21,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Peach,fresh_produce,16,moderate,,-0.5,92,21,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Pear,fresh_produce,14,moderate,,-1.0,92,120,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Potato,fresh_produce,12,moderate,,7.0,92,210,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Carrot,fresh_produce,10,low,,0.0,98,210,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Onion,fresh_produce,5,very_low,,0.0,68,210,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Cabbage,fresh_produce,8,low,,0.0,98,150,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Lettuce,fresh_produce,21,high,,0.0,98,18,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Spinach,fresh_produce,65,very_high_or_extreme,,0.0,98,12,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Broccoli,fresh_produce,60,very_high_or_extreme,,0.0,98,12,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Cucumber,fresh_produce,27,high,,11.5,92,12,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Bell pepper,fresh_produce,19,moderate,,8.5,92,18,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Sweet potato,fresh_produce,20,moderate,,14.0,88,150,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Garlic,fresh_produce,5,very_low,,0.0,68,200,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Beet,fresh_produce,10,low,,0.0,98,150,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Winter squash,fresh_produce,8,low,,11.5,60,120,True,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Mushroom,fresh_produce,70,very_high_or_extreme,,0.0,92,6,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Sweet corn,fresh_produce,65,very_high_or_extreme,,0.0,96,6,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed
+Asparagus,fresh_produce,55,very_high_or_extreme,,1.0,96,18,False,,,,"USDA AH-66 / postharvest literature (compiled midpoint, verify per cultivar)",unverified_seed

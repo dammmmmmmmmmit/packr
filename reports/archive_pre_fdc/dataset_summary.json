@@ -1,0 +1,25 @@
+{
+  "seed": 0,
+  "n_train": 85100,
+  "n_test": 11000,
+  "n_train_commodities_real": 37,
+  "n_train_commodities_virtual": 444,
+  "n_test_commodities": 11,
+  "test_commodities": [
+    "Strawberry",
+    "Lettuce",
+    "Mango",
+    "Potato",
+    "Cucumber",
+    "Apple",
+    "Okra",
+    "Cauliflower",
+    "Banana Chips",
+    "Cream Biscuits",
+    "Roasted Peanuts"
+  ],
+  "n_trials_train": 128,
+  "n_trials_test": 256,
+  "n_candidate_structures": 89,
+  "folds": 5
+}

@@ -1,0 +1,364 @@
+{
+  "criteria": {
+    "mae_success_max": 0.1,
+    "improvement_vs_best_baseline": 0.3,
+    "plateau_gain_max": 0.05,
+    "auc_min": 0.9,
+    "shelf_life_medae_log_max": 0.3
+  },
+  "main": {
+    "mae": 0.15475045907806767,
+    "auc": 0.9359813656572178,
+    "life_medae_log": 0.586155204383733,
+    "baselines": {
+      "global_mean": 0.38140161557926494,
+      "category_mean": 0.32811602961878106,
+      "rule_engine": 0.36215625,
+      "rule_engine_auc": 0.6249041103285387
+    },
+    "mc_noise_floor_mae": 0.006098083445431768
+  },
+  "per_commodity_mae": [
+    {
+      "category": "dry_snack",
+      "commodity": "Banana Chips",
+      "err": 0.078
+    },
+    {
+      "category": "dry_snack",
+      "commodity": "Cream Biscuits",
+      "err": 0.237
+    },
+    {
+      "category": "dry_snack",
+      "commodity": "Roasted Peanuts",
+      "err": 0.147
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Apple",
+      "err": 0.14
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Cauliflower",
+      "err": 0.116
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Cucumber",
+      "err": 0.091
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Lettuce",
+      "err": 0.22
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Mango",
+      "err": 0.153
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Okra",
+      "err": 0.241
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Potato",
+      "err": 0.123
+    },
+    {
+      "category": "fresh_produce",
+      "commodity": "Strawberry",
+      "err": 0.158
+    }
+  ],
+  "per_category_mae": {
+    "dry_snack": 0.154,
+    "fresh_produce": 0.155
+  },
+  "learning_curve_commodities": [
+    {
+      "virtual": false,
+      "k": 6,
+      "rows": 3000.0,
+      "mae": 0.1892,
+      "auc": 0.8557,
+      "life": 0.7111
+    },
+    {
+      "virtual": false,
+      "k": 12,
+      "rows": 6000.0,
+      "mae": 0.1888,
+      "auc": 0.8715,
+      "life": 0.7062
+    },
+    {
+      "virtual": false,
+      "k": 18,
+      "rows": 9000.0,
+      "mae": 0.2246,
+      "auc": 0.8157,
+      "life": 0.7418
+    },
+    {
+      "virtual": false,
+      "k": 24,
+      "rows": 12000.0,
+      "mae": 0.2033,
+      "auc": 0.8652,
+      "life": 0.7086
+    },
+    {
+      "virtual": false,
+      "k": 30,
+      "rows": 15000.0,
+      "mae": 0.1608,
+      "auc": 0.9198,
+      "life": 0.5482
+    },
+    {
+      "virtual": false,
+      "k": 37,
+      "rows": 18500.0,
+      "mae": 0.2134,
+      "auc": 0.8571,
+      "life": 0.6692
+    },
+    {
+      "virtual": true,
+      "k": 6,
+      "rows": 13800.0,
+      "mae": 0.1998,
+      "auc": 0.8577,
+      "life": 0.697
+    },
+    {
+      "virtual": true,
+      "k": 12,
+      "rows": 27600.0,
+      "mae": 0.2,
+      "auc": 0.8767,
+      "life": 0.8419
+    },
+    {
+      "virtual": true,
+      "k": 18,
+      "rows": 41400.0,
+      "mae": 0.1477,
+      "auc": 0.933,
+      "life": 0.5885
+    },
+    {
+      "virtual": true,
+      "k": 24,
+      "rows": 55200.0,
+      "mae": 0.1555,
+      "auc": 0.9289,
+      "life": 0.5729
+    },
+    {
+      "virtual": true,
+      "k": 30,
+      "rows": 69000.0,
+      "mae": 0.1807,
+      "auc": 0.8999,
+      "life": 0.6093
+    },
+    {
+      "virtual": true,
+      "k": 37,
+      "rows": 85100.0,
+      "mae": 0.1548,
+      "auc": 0.936,
+      "life": 0.5862
+    }
+  ],
+  "learning_curve_rows": [
+    {
+      "frac": 0.01,
+      "rows": 851,
+      "mae": 0.22787276238363954,
+      "auc": 0.8591061979796042
+    },
+    {
+      "frac": 0.03,
+      "rows": 2553,
+      "mae": 0.18311511911299672,
+      "auc": 0.9037153619856689
+    },
+    {
+      "frac": 0.1,
+      "rows": 8510,
+      "mae": 0.16711355207738865,
+      "auc": 0.922374836242061
+    },
+    {
+      "frac": 0.3,
+      "rows": 25530,
+      "mae": 0.15949681310864483,
+      "auc": 0.9322896963499114
+    },
+    {
+      "frac": 1.0,
+      "rows": 85100,
+      "mae": 0.15885793586136235,
+      "auc": 0.9330447035399048
+    }
+  ],
+  "oracle_with_latent_params": {
+    "mae": 0.07332994996586004,
+    "auc": 0.9867475890013886,
+    "life_medae_log": 0.2279701394100847
+  },
+  "category_extrapolation": {
+    "train_fresh_produce_test_dry_snack_mae": 0.6786137209338101,
+    "train_dry_snack_test_fresh_produce_mae": 0.3398821332353426
+  },
+  "grouped_cv_mae": {
+    "folds": [
+      0.1977,
+      0.1763,
+      0.1139,
+      0.1438,
+      0.1416
+    ],
+    "mean": 0.15467915284482303,
+    "sd": 0.029206003440130572
+  },
+  "coverage": {
+    "real_commodities": {
+      "dry_snack": 12,
+      "fresh_produce": 36
+    },
+    "test_nn_distance_median": 0.6309260637867252,
+    "train_leave_one_out_nn_distance_median": 0.5005308956741712
+  },
+  "anchor_supplied": {
+    "non_map_rows": 28,
+    "non_map_median_ratio": 1.325962234814151,
+    "non_map_spearman": 0.852090096819793,
+    "map_rows": 22,
+    "map_median_ratio": 0.22327108813061844,
+    "note": "base_life_days of foods that exist only in the supplied CSV was taken from its own non-MAP rows, so the non-MAP agreement is NOT independent validation"
+  },
+  "anchor_cookie": [
+    {
+      "film": "PP film",
+      "observed_acceptable": false,
+      "success_rate": 0.955,
+      "shelf_life_p50": 383.126
+    },
+    {
+      "film": "acryl-coated PVdC/PP",
+      "observed_acceptable": false,
+      "success_rate": 0.955,
+      "shelf_life_p50": 372.217
+    },
+    {
+      "film": "metallised PP",
+      "observed_acceptable": true,
+      "success_rate": 1.0,
+      "shelf_life_p50": 449.374
+    }
+  ],
+  "anchor_cookie_crit_aw_sweep": [
+    {
+      "crit_aw": 0.2,
+      "success_rates": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "crit_aw": 0.25,
+      "success_rates": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "crit_aw": 0.3,
+      "success_rates": [
+        0.0,
+        0.0,
+        0.01
+      ]
+    },
+    {
+      "crit_aw": 0.35,
+      "success_rates": [
+        0.0,
+        0.0,
+        0.96
+      ]
+    },
+    {
+      "crit_aw": 0.4,
+      "success_rates": [
+        0.01,
+        0.01,
+        1.0
+      ]
+    },
+    {
+      "crit_aw": 0.45,
+      "success_rates": [
+        0.18,
+        0.22,
+        1.0
+      ]
+    },
+    {
+      "crit_aw": 0.5,
+      "success_rates": [
+        0.69,
+        0.72,
+        1.0
+      ]
+    },
+    {
+      "crit_aw": 0.55,
+      "success_rates": [
+        0.95,
+        0.96,
+        1.0
+      ]
+    },
+    {
+      "crit_aw": 0.6,
+      "success_rates": [
+        1.0,
+        0.99,
+        1.0
+      ]
+    }
+  ],
+  "verdict": {
+    "mae_success": {
+      "value": 0.1548,
+      "passed": false
+    },
+    "beats_baseline": {
+      "value": 0.5284,
+      "passed": true
+    },
+    "plateau_in_commodities": {
+      "value": 0.1436,
+      "passed": false
+    },
+    "auc": {
+      "value": 0.936,
+      "passed": true
+    },
+    "shelf_life_log_medae": {
+      "value": 0.5862,
+      "passed": false
+    }
+  }
+}

@@ -1,0 +1,47 @@
+commodity,moisture_pct,fat_pct,moisture_pct_source,moisture_pct_fdc_id,moisture_pct_description,moisture_pct_n_samples,fat_pct_source,fat_pct_fdc_id,fat_pct_n_samples,note
+Apple,84.62,0.15,FDC Foundation,1750339;1750343;1750342;1750341;1750340,"Apples, red delicious, with skin, raw | Apples, honeycrisp, with skin, raw | Apples, granny smith, with skin, raw | Apples, gala, with skin, raw | Apples, fuji, with skin, raw",40.0,FDC Foundation,1750339;1750343;1750342;1750341;1750340,40.0,"mean of 5 varieties, with skin"
+Asparagus,92.57,0.22,FDC Foundation,2710823,"Asparagus, green, raw",8.0,FDC Foundation,2710823,8.0,
+Avocado,67.0,20.31,FDC Foundation,2710824,"Avocado, Hass, peeled, raw",8.0,FDC Foundation,2710824,8.0,Hass only in Foundation
+Banana,75.3,0.29,FDC Foundation,1105314,"Bananas, ripe and slightly ripe, raw",12.0,FDC Foundation,1105314,12.0,"ripe, not overripe"
+Beet,88.16,0.3,FDC Foundation,2685576,"Beets, raw",8.0,FDC Foundation,2685576,8.0,
+Bell Pepper,92.5,0.13,FDC Foundation,2258588;2258589;2258590;2258591,"Peppers, bell, green, raw | Peppers, bell, yellow, raw | Peppers, bell, red, raw | Peppers, bell, orange, raw",35.0,FDC Foundation,2258588;2258589;2258590;2258591,35.0,mean of 4 colours
+Blueberry,84.19,0.31,FDC Foundation,2346411,"Blueberries, raw",8.0,FDC Foundation,2346411,8.0,"cultivated, not wild"
+Brinjal,93.11,0.12,FDC Foundation,2685577,"Eggplant, raw",8.0,FDC Foundation,2685577,8.0,brinjal = eggplant
+Broccoli,90.0,0.34,FDC Foundation,747447,"Broccoli, raw",12.0,FDC Foundation,747447,8.0,
+Cabbage,91.87,0.23,FDC Foundation,2346407,"Cabbage, green, raw",8.0,FDC Foundation,2346407,8.0,"green (common) cabbage; red, napa and bok choy excluded"
+Carrot,87.72,0.35,FDC Foundation,2258586,"Carrots, mature, raw",8.0,FDC Foundation,2258586,8.0,"mature, not baby"
+Cauliflower,92.72,0.24,FDC Foundation,2685573,"Cauliflower, raw",8.0,FDC Foundation,2685573,8.0,
+Cucumber,95.87,0.18,FDC Foundation,2346406,"Cucumber, with peel, raw",8.0,FDC Foundation,2346406,8.0,
+Garlic,63.1,0.38,FDC Foundation,1104647,"Garlic, raw",6.0,FDC Foundation,1104647,6.0,
+Grapes,79.04,0.2,FDC Foundation,2346412;2346413,"Grapes, red, seedless, raw | Grapes, green, seedless, raw",16.0,FDC Foundation,2346412;2346413,16.0,mean of red and green seedless
+Green Chilli,87.74,0.2,FDC SR Legacy,170497,"Peppers, hot chili, green, raw",5.0,FDC SR Legacy,170497,0.0,"Foundation has only seeded jalapeno / serrano (specific cultivars, seeds removed); SR hot green chili used"
+Green Peas,78.86,0.4,FDC SR Legacy,170419,"Peas, green, raw",10.0,FDC SR Legacy,170419,7.0,Foundation has only canned peas
+Guava,80.8,0.95,FDC SR Legacy,173044,"Guavas, common, raw",2.0,FDC SR Legacy,173044,2.0,not in Foundation; SR n = 2
+Lettuce,94.71,0.1,FDC Foundation,2346388;2346389;2346391;2346390,"Lettuce, iceberg, raw | Lettuce, romaine, green, raw | Lettuce, leaf, green, raw | Lettuce, leaf, red, raw",32.0,FDC Foundation,2346388;2346389;2346391;2346390,32.0,"mean of iceberg, romaine, green leaf, red leaf (type not specified)"
+Mango,82.0,0.63,FDC Foundation,2710833;2710834,"Mango, Tommy Atkins, peeled, raw | Mango, Ataulfo, peeled, raw",16.0,FDC Foundation,2710833;2710834,16.0,mean of 2 cultivars
+Mushroom,91.83,0.37,FDC Foundation,1999629,"Mushrooms, white button",6.0,FDC Foundation,1999629,6.0,white button (most common); species not specified
+Okra,89.58,0.19,FDC SR Legacy,169260,"Okra, raw",19.0,FDC SR Legacy,169260,5.0,not in Foundation
+Onion,90.0,0.09,FDC Foundation,790577;790646;1104962,"Onions, red, raw | Onions, yellow, raw | Onions, white, raw",18.0,FDC Foundation,790577;790646;1104962,18.0,"mean of red, yellow, white"
+Orange,86.7,0.15,FDC Foundation,746771,"Oranges, raw, navels",8.0,FDC Foundation,746771,8.0,navel only in Foundation
+Papaya,88.06,0.26,FDC SR Legacy,169926,"Papayas, raw",72.0,FDC SR Legacy,169926,9.0,not in Foundation
+Peach,88.3,0.27,FDC Foundation,325430,"Peaches, yellow, raw",8.0,FDC Foundation,325430,8.0,
+Pear,84.18,0.27,FDC Foundation,746773;2710836,"Pears, raw, bartlett | Pear, Anjou, green, with skin, raw",16.0,FDC Foundation,746773;2710836,14.0,mean of bartlett and anjou
+Pineapple,84.99,0.21,FDC Foundation,2346398,"Pineapple, raw",8.0,FDC Foundation,2346398,8.0,
+Pomegranate,77.93,1.17,FDC SR Legacy,169134,"Pomegranates, raw",3.0,FDC SR Legacy,169134,3.0,not in Foundation; SR n = 3
+Potato,80.05,0.29,FDC Foundation,2346401;2346402;2346403,"Potatoes, russet, without skin, raw | Potatoes, red, without skin, raw | Potatoes, gold, without skin, raw",24.0,FDC Foundation,2346401;2346402;2346403,24.0,Foundation is without skin (mean of 3 types); whole tuber stored in practice
+Spinach,92.43,0.6,FDC Foundation,1999633,"Spinach, mature",8.0,FDC Foundation,1999633,8.0,mature leaves (not baby)
+Strawberry,90.83,0.22,FDC Foundation,2346409,"Strawberries, raw",8.0,FDC Foundation,2346409,8.0,
+Sweet corn,80.25,1.63,FDC Foundation,2710826,"Corn, sweet, yellow and white kernels,  fresh, raw",8.0,FDC Foundation,2710826,8.0,kernels
+Sweet potato,79.54,0.38,FDC Foundation,2346404,"Sweet potatoes, orange flesh, without skin, raw",8.0,FDC Foundation,2346404,8.0,orange flesh
+Tomato,94.52,0.2,FDC SR Legacy,170457,"Tomatoes, red, ripe, raw, year round average",39.0,FDC SR Legacy,170457,26.0,Foundation has only grape and roma tomatoes; SR red ripe year-round average is the generic tomato
+Winter squash,87.27,0.18,FDC Foundation,2685570;2685571,"Squash, winter, butternut, raw | Squash, winter, acorn, raw",16.0,FDC Foundation,2685570;2685571,16.0,mean of butternut and acorn
+Potato Chips,1.86,33.98,FDC SR Legacy,169677,"Snacks, potato chips, plain, salted",17.0,FDC SR Legacy,169677,17.0,
+Tortilla Chips,2.64,20.68,FDC SR Legacy,167558,"Snacks, tortilla chips, plain, white corn, salted",12.0,FDC SR Legacy,167558,12.0,
+Banana Chips,4.3,33.6,FDC SR Legacy,168849,"Snacks, banana chips",2.0,FDC SR Legacy,168849,2.0,SR n = 2
+Salted Crackers,3.14,26.43,FDC SR Legacy,174982,"Crackers, standard snack-type, regular",11.0,FDC SR Legacy,174982,12.0,"snack-type crackers (Monaco / Krackjack-like), chosen by Adi 2026-10-26; saltines would be fat 8.6"
+Cream Biscuits,2.2,20.0,FDC SR Legacy,172737,"Cookies, vanilla sandwich with creme filling",32.0,FDC SR Legacy,172737,40.0,cream biscuit = creme-filled sandwich cookie; vanilla
+Roasted Peanuts,1.81,49.66,FDC SR Legacy,174262,"Peanuts, all types, dry-roasted, with salt",17.0,FDC SR Legacy,174262,9.0,dry-roasted (oil-roasted: fat 52.5 vs 49.7)
+Roasted Almonds,2.2,57.8,FDC Foundation,323294,"Nuts, almonds, dry roasted, with salt added",13.0,FDC Foundation,323294,13.0,
+Ready Popcorn,2.8,28.1,FDC SR Legacy,170247,"Snacks, popcorn, oil-popped, white popcorn, salt added",50.0,FDC SR Legacy,170247,40.0,"oil-popped salted; microwave popcorn would be fat 43.6, air-popped 4.5"
+Corn Flakes,3.31,0.91,FDC SR Legacy,174648,"Cereals ready-to-eat, RALSTON Corn Flakes",3.0,FDC SR Legacy,174648,3.0,"the only corn flakes entry (brand: Ralston), SR n = 3"
+Instant Noodles,6.52,17.59,FDC SR Legacy,171177,"Soup, ramen noodle, any flavor, dry",24.0,FDC SR Legacy,171177,24.0,dry block including the seasoning packet

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "packr"
+version = "0.1.0"
+description = "Packr: AI-assisted food packaging recommendation (data layer, knowledge engine, simulation)"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "numpy>=1.24"]
+
+[project.optional-dependencies]
+ml = ["lightgbm>=4", "scikit-learn>=1.3", "joblib"]
+api = ["fastapi>=0.110", "uvicorn", "lightgbm>=4", "scikit-learn>=1.3", "joblib"]
+dev = ["pytest>=7", "scikit-learn>=1.3", "nbformat", "nbconvert", "ipykernel", "lightgbm>=4", "matplotlib", "pyarrow",
+       "joblib", "fastapi>=0.110", "httpx", "uvicorn", "SALib>=1.4", "scipy>=1.10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+packr = ["reference/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
